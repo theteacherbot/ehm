@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>TITULO</title>
+  <script type="text/javascript" src="lib/descartes-min.js" charset="utf-8"></script>
+</head>
+
+<body style="padding:0; margin:0; background:#eff0f1;">
+
+  <div align="center">
+    <ajs name="Descartes" code="Descartes" width="600" height="650">
+      <param name="tamaño" value="600x650">
+      <param name="decimal_symbol" value=".">
+      <param name="nombre" value="">
+      <param name="Versión" value="5.5">
+      <param name="editable" value="no">
+      <param name="Idioma" value="español">
+      <param name="Botones" value="créditos=no config=no inicio=no limpiar=no filas_norte=0 filas_sur=0 ancho_este=150 ancho_oeste=150 alto=40 ">
+      <param name="E_01" value="tipo='R2' id='E1' ancho='100%' alto='100%' fondo='d4fbc0' red='no' red10='no' ejes='no' border_width='3' border_color='0000ff' border_radius='10' ">
+      <param name="E_02" value="tipo='R2' id='E2' x='30' y='450' ancho='90%' alto='30%' fijo='sí' fondo='d4fbc0' red='no' red10='no' ejes='no' border_width='2' border_color='ff0000' border_radius='10' ">
+      <param name="C_01" value="id='m1' tipo='numérico' interfaz='menú' región='interior' espacio='E1' expresión='(E1._w/2-100,30,200,50)' visible='no' opciones='Elige la figura geométrica,Triángulo,Rectángulo,Círculo' label_color='ffffb0' negrita='sí' ">
+      <param name="C_02" value="id='x' tipo='numérico' interfaz='barra' región='interior' espacio='E2' nombre='x' expresión='(385,160,150,30)' incr='0.5' min='0' max='7' visible='no' label_color='00bf00' label_text_color='ffff00' negrita='sí' ">
+      <param name="C_03" value="id='y' tipo='numérico' interfaz='barra' región='interior' espacio='E2' nombre='y' expresión='(3,23,30,150)' valor='-2' min='-3' max='3' decimales='0' visible='no' label_color='0000ff' label_text_color='ffffff' negrita='sí' ">
+      <param name="A_01" value="id='INICIO' algoritmo='sí' evaluar='una-sola-vez' hacer='titulo=&squot;Ctr Menú&squot;;parent.set(&squot;ttl&squot;,titulo);parent.update()' ">
+      <param name="A_02" value="id='CALCULOS' algoritmo='sí' evaluar='siempre' ">
+      <param name="G_01" value="espacio='E1' tipo='polígono' color='0000ff' dibujar-si='m1==1' coord_abs='no' expresión='(-2,-2)(0,2)(2,-2)(-2,-2)' relleno='00ffff' ancho='2' info='Triángulo' ">
+      <param name="G_02" value="espacio='E1' tipo='polígono' color='ff0000' dibujar-si='m1==2' coord_abs='no' expresión='(-2,-2)(-2,2)(2,2)(2,-2)(-2,-2)' relleno='ffffbe' ancho='2' info='Rectángulo' ">
+      <param name="G_03" value="espacio='E1' tipo='arco' color='209d00' dibujar-si='m1==3' coord_abs='no' centro='(0,0)' radio='2' inicio='0' fin='360' relleno='84ff9d' ancho='2' ">
+      <param name="G_04" value="espacio='E1' tipo='texto' color='20303a' dibujar-si='m1==1' coord_abs='sí' expresión='(180,110)' texto='¡Qué bien! Esto es un triángulo' ancho='1' negrita='sí' fuente puntos='21' align='a_left' anchor='a_top_left' ">
+      <param name="G_05" value="espacio='E1' tipo='texto' color='20303a' dibujar-si='m1==2' coord_abs='sí' expresión='(180,110)' texto='¡Qué bien! Esto es un rectángulo' ancho='1' negrita='sí' fuente puntos='21' align='a_left' anchor='a_top_left' ">
+      <param name="G_06" value="espacio='E1' tipo='texto' color='20303a' dibujar-si='m1==3' coord_abs='sí' expresión='(180,110)' texto='¡Qué bien! Esto es un círculo' ancho='1' negrita='sí' fuente puntos='21' align='a_left' anchor='a_top_left' ">
+      <param name="G_07" value="espacio='E2' tipo='imagen' coord_abs='no' expresión='(x,y,0.6,0.6)' archivo='images/1.jpg' ">
+    </ajs>
+  </div>
+
+
+
+</body>
+</html>
